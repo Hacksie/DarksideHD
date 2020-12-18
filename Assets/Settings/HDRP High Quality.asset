@@ -201,8 +201,8 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
-    supportSSGI: 0
-    supportSubsurfaceScattering: 1
+    supportSSGI: 1
+    supportSubsurfaceScattering: 0
     sssSampleBudget:
       m_Values: 140000002800000050000000
       m_SchemaId:
@@ -217,7 +217,7 @@ MonoBehaviour:
     lightLayerName5: Light Layer 5
     lightLayerName6: Light Layer 6
     lightLayerName7: Light Layer 7
-    supportDistortion: 1
+    supportDistortion: 0
     supportTransparentBackface: 1
     supportTransparentDepthPrepass: 1
     supportTransparentDepthPostpass: 1
@@ -275,8 +275,8 @@ MonoBehaviour:
       maxLightsPerClusterCell: 8
     hdShadowInitParams:
       maxShadowRequests: 128
-      directionalShadowsDepthBits: 32
-      shadowFilteringQuality: 0
+      directionalShadowsDepthBits: 16
+      shadowFilteringQuality: 2
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
         shadowAtlasDepthBits: 16
